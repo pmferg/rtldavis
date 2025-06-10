@@ -27,7 +27,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/bemasher/rtldavis/protocol"
+	"github.com/pmferg/rtldavis/protocol"
 	"github.com/jpoirier/gortlsdr"
 )
 
