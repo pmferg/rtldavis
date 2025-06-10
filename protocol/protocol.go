@@ -75,7 +75,7 @@ func NewParser(symbolLength, id int) (p Parser) {
 	p.channelFreqErr = make(map[int]int)
 
 	p.ID = id
-	p.DwellTime = 3000 * time.Microsecond
+	p.DwellTime = 60000 * time.Microsecond
 	p.DwellTime += time.Duration(p.ID) * 62500 * time.Microsecond
 
 	return
